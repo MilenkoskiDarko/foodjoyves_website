@@ -137,7 +137,7 @@ blockquote {
 
 /* Home */
 
-#infinite {
+#home {
     background-color: #222;
       background-image: url(../img/novaGalerija/IMG_5951.jpeg);
     background-size: cover;
@@ -148,7 +148,7 @@ blockquote {
       position: relative;
 }
 @media screen and (max-width: 768px) {
-#infinite.tm-parallax {
+#home.tm-parallax {
     /* 1. Force the background to scroll normally, disabling the parallax lock */
     background-attachment: scroll !important;
 
@@ -161,25 +161,25 @@ blockquote {
 }
 
 @media (min-height: 830px) {
-  #infinite {
+  #home {
     background-position: center -210px;
   }
 }
 
 @media (min-height: 680px) and (max-height: 829px) {
-  #infinite {
+  #home {
     background-position: center -300px;
   }
 }
 
 @media (min-height: 500px) and (max-height: 679px) {
-  #infinite {
+  #home {
     background-position: center -400px;
   }
 }
 
 @media (max-height: 499px) {
-  #infinite {
+  #home {
     background-position: center -450px;
   }
 }
@@ -267,7 +267,7 @@ blockquote {
 }
 
 /* Proizvodi */
-#testimonials {
+#products {
   color: white;
   background-image: url(../img/lebojpokeblur10.png);
     background-size: cover;
@@ -277,7 +277,7 @@ blockquote {
 }
 
 @media (max-width: 991px) {
-  #testimonials {
+  #products {
     background-image: url(../img/lebojpokeblur10MOBILE.png);
       position: relative;
       background-size: cover;
@@ -285,7 +285,7 @@ blockquote {
   }
 }
 
-.tm-testimonials-content {
+.tm-products-content {
   position: relative;
   z-index: 100;
 }
@@ -305,23 +305,23 @@ blockquote {
   z-index: 0;
 }
 
-.tm-testimonials-carousel {
+.tm-products-carousel {
   max-width: 1050px;
   margin: 0 auto;
 }
 
-.tm-testimonial-item {
+.tm-products-item {
   max-width: 290px;
   margin-left: 35px;
   margin-right: 35px;
 }
 
-.tm-testimonial-item img {
+.tm-products-item img {
   border-radius: 50%;
   margin-bottom: 35px;
 }
 
-.tm-testimonial-item figcaption {
+.tm-tproducts-item figcaption {
   text-align: right;
   font-style: italic;
   font-size: 1.1rem;
@@ -359,14 +359,14 @@ blockquote {
   color: #3ba0dd;
 }
 
-.tm-testimonials-carousel .slick-dots li button:before {
+.tm-products-carousel .slick-dots li button:before {
   color: white;
   opacity: 0.5;
 }
 
-.tm-testimonials-carousel .slick-dots li button:hover:before,
-.tm-testimonials-carousel .slick-dots li button:focus:before,
-.tm-testimonials-carousel .slick-dots li.slick-active button:before {
+.tm-products-carousel .slick-dots li button:hover:before,
+.tm-products-carousel .slick-dots li button:focus:before,
+.tm-products-carousel .slick-dots li.slick-active button:before {
   color: white;
   opacity: 1;
 }
